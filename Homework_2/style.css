@@ -1,0 +1,18 @@
+.body {
+  max-width: 600px;
+  margin: 0px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.line {
+  height: 1px;
+  border: none;
+  color: #636363;
+  background-color: #636363;
+}
+
+.image {
+  height: 200px;
+  width: auto;
+}
