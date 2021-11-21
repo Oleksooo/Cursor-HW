@@ -1,0 +1,119 @@
+.main_container {
+  background-color: rgb(46, 46, 46);
+  padding: 3%;
+  height: 100%;
+  width: 100%;
+}
+
+/* table 1 */
+
+.tables_all {
+  background-color: rgb(54, 54, 54);
+  border: 1px solid rgb(112, 112, 112);
+  border-radius: 10px;
+  border-style: collapse;
+  width: 800px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.tables_all .name_with_date,
+.horizontal_1,
+.horizontal_2,
+.name_3,
+.date_3 {
+  color: white;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 12px 10px;
+}
+
+.horizontal_1 {
+  border-top: 1px solid rgb(112, 112, 112);
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.name_with_date {
+  text-align: left;
+  width: 30%;
+}
+
+.horizontal_2 {
+  color: rgb(126, 126, 126);
+  border-top: 1px solid rgb(112, 112, 112);
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.img_dots {
+  border-top: 1px solid rgb(112, 112, 112);
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  text-align: center;
+}
+
+.img_1 {
+  opacity: 50%;
+  height: 20px;
+}
+
+/* table 2 */
+
+.img_2 {
+  height: 20px;
+}
+
+/* table 3 */
+
+.tables_3 {
+  background-color: rgb(54, 54, 54);
+  border: 1px solid rgb(112, 112, 112);
+  border-radius: 10px;
+  border-style: collapse;
+  width: 800px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.name_3 {
+  text-align: left;
+  width: 50%;
+}
+
+.date_3 {
+  text-align: left;
+  width: 20%;
+}
+
+.cell_3 {
+  text-align: right;
+}
+
+.search {
+  background-color: rgb(73, 73, 73);
+  border: 1px solid #393939;
+  border-radius: 7px;
+  margin: 4px;
+  padding-left: 20px;
+  width: 190px;
+  height: 40px;
+}
+
+.img_dots_3 {
+  text-align: right;
+  padding-right: 21px;
+  border-top: 1px solid rgb(112, 112, 112);
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.img_icon {
+  width: 30px;
+  height: 20px;
+}
