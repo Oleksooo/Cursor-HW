@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="index.css")
+        title Documenttttt
+    body
+        h1 Headline
+
+        - let links = [
+            "Home", 
+            "About", 
+            "Contacts", 
+            "Posts"
+        ];
+<!-- (2) задали переменную links и с помощью [] указали что это массив links-->        
+        
+    include navigation/templates.pug
+    +navigation
+        
+    +navigation(links)
+<!-- (3) передали ее, дописав (links) к миксину +navigation далее в templates  -->
+

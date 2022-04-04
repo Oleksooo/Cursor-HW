@@ -1,0 +1,22 @@
+        
+mixin navigation(links)
+<!-- (1) с помощью () сделали из миксина функцию и задали какой-то параметр links (далее в index)-->
+    nav.navigation 
+<!-- (4) чтобы пройтись по всем линкам мы указываем следующее: -->
+        each link in links
+<!-- (5) указали что мы пройдемся по всем link links -->
+        ul.navigation__list
+            li.navigation__item
+                a(href="" class="navigation__link")=link 
+<!-- (6) -->
+            
+
+<!-- то, как выглядело до задавания переменной-->
+nav.navigation 
+        ul.navigation__list
+            li.navigation__item
+                a(href="" class="navigation__link") Home  <!--дали класс, чтобы добить до них стили-->
+            li.navigation__item
+                a(href="" class="navigation__link") About <!--дали класс, чтобы добить до них стили-->
+            li.navigation__item
+                a(href="" class="navigation__link") Contacts <!--дали класс, чтобы добить до них стили-->

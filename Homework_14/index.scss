@@ -1,0 +1,16 @@
+@import "templates/button_download/button-download";
+@import "templates/button-group/button-group";
+
+.buttons-big {
+    
+    &__container-btn {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    &__btn {
+        margin-right: 20px;
+    }
+}
+

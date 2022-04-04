@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+}
+
+/* header */
+
+.wrapper_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 20px 69px 20px;
+  background: rgba(244, 246, 249, 1);
+}
+
+.header_text {
+  text-align: center;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 86px;
+}
+
+/* Выровнять строку лого */
+
+.header_logo p {
+  text-align: end;
+  font-family: Product Sans;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #5282f0;
+}
+
+.header_logo h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.header_text p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #4f4f4f;
+  padding: 33px 0px 50px 0px;
+}
+
+.header_shops {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* container 1 */
+/* container 1 */
+
+/* container 2 */
+/* container 2 */
+
+/* container 3 */
+
+.container3 {
+  background: rgba(250, 250, 250, 1);
+}
+
+.container3 h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+  padding: 42px 21px 0px 21px;
+}
+
+.container3_groups {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  gap: 50px;
+  text-align: center;
+  padding: 52px 25px 69px 25px;
+}
+
+.group_text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.group_text span {
+  display: none;
+}
+
+/* container 4 */
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  padding: 50px 25px 71px 25px;
+  position: relative;
+}
+
+.container4 h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+}
+
+.boxes_1 {
+  display: none;
+}
+
+.box_2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 161px;
+  border: 1px solid #4f4f4f;
+  border-radius: 3px;
+  padding: 20px 13px 24px 17px;
+  margin: 39px 0px 33px 0px;
+}
+
+.box_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.box_name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.box_2 h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  padding-left: 11px;
+}
+
+.box_2 p {
+  max-width: 90%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+
+.arrow_left {
+  background: none;
+  border: none;
+  position: absolute;
+  display: none;
+}
+
+.arrow_right {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 210px;
+  right: -30px;
+  transform: translate(-50%, -50%);
+}
+
+.img_opacity {
+  display: none;
+}
+
+/* container 5 */
+
+.container5 {
+  background: rgba(250, 250, 250, 1);
+  padding: 57px 20px 71px 20px;
+}
+
+.container5 h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 43px;
+}
+
+.block_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block_links a {
+  margin-bottom: 10%;
+}
+
+/* container 6 */
+
+.container6 {
+}
+
+.container6_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 20px 46px 20px;
+}
+
+.container6_content h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
+}
+
+.container6_content p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #4f4f4f;
+  padding-top: 15px;
+  padding-bottom: 37px;
+}
+
+.shops_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 720px) {
+  .wrapper {
+    max-width: 1440px;
+  }
+  .wrapper_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 61px 0px 164px 163px;
+    background: rgba(244, 246, 249, 1) url(images/background1.png) no-repeat
+      right;
+    max-width: 100%;
+    max-width: 1440px;
+  }
+  .header_logo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 133px;
+  }
+
+  .header_text {
+    text-align: start;
+    width: 35%;
+  }
+
+  .header_text p {
+    padding: 30px 0px 50px 0px;
+  }
+
+  .header_shops {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+  }
+
+  .header_AppStore {
+    margin-right: 35px;
+  }
+
+  /* container 3 */
+
+  .container3 {
+    height: 735px;
+    background: url(Images/background3.png) no-repeat border-box;
+  }
+  .container3 h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #ffffff;
+    padding-top: 76px;
+    /* padding: 42px 21px 0px 21px; */
+  }
+  .container3_groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 90px;
+    padding: 54px 164px 66px 164px;
+  }
+  .group_icons {
+    fill: white;
+  }
+
+  .group_text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .group_text span {
+    display: inline;
+  }
+
+  /* container 4 */
+
+  .container4 {
+    position: relative;
+  }
+  .box_2,
+  .boxes_1 {
+    display: flex;
+    flex-direction: column;
+    height: 161px;
+    width: 309px;
+    border: 1px solid #4f4f4f;
+    border-radius: 3px;
+    margin: 0px 13px;
+    padding: 20px 13px 0px 17px;
+  }
+
+  .container4_boxes {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 63px;
+    padding-bottom: 47px;
+  }
+
+  .box_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+  }
+
+  .boxes_1 h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    padding-left: 11px;
+  }
+
+  .box_2,
+  .boxes_1 p {
+    max-width: 100%;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4f4f4f;
+  }
+
+  .arrow_left {
+    background: none;
+    border: none;
+    position: absolute;
+    display: inline;
+    top: 240px;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+
+  .arrow_right {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 240px;
+    right: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img_opacity {
+    display: inline;
+  }
+
+  /* container5 */
+
+  .container5 {
+    background: rgba(250, 250, 250, 1);
+    padding: 57px 180px 68px 180px;
+  }
+
+  .container5 h2 {
+    padding-bottom: 58px;
+  }
+
+  .block_links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .block_links a {
+    margin-bottom: 0%;
+  }
+
+  /* container6 */
+  .container6 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container6_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 105px 143px 98px 77px;
+    order: 1;
+  }
+
+  .container6_content p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #4f4f4f;
+    padding-top: 35px;
+    padding-bottom: 38px;
+
+    text-align: left;
+  }
+
+  .shops_2 {
+    display: flex;
+    justify-content: flex-start;
+    order: 0;
+  }
+
+  .Frame {
+    max-width: 100%;
+  }
+}
+
+/* h2 всё в одно */
+/* расставить контейнер 4 */

@@ -1,0 +1,35 @@
+.navigation {
+  width: 100%;
+
+  padding: 10px;
+
+  &__list {
+    display: flex;
+    list-style: none; /*убрали точки перед текстом*/
+    margin: 0;
+    margin-block-start: 0; /*сделали по 0 преднастройки браузера*/
+    margin-block-end: 0; /*сделали по 0 преднастройки браузера*/
+    padding-inline-start: 0; /*сделали по 0 преднастройки браузера*/
+  }
+
+  &__item {
+    /*padding: 25px; сделали в link, а не item, чтобы курсор появлялся сразу при наведении 
+    курсора, а не когда дойдет до блока link*/
+    margin: 10px;
+    border: 2px solid greenyellow;
+    transition: 0.9s; /* 0.3s стандартное время transitiom при навединии курсора (hover)*/
+  }
+
+  &__item:hover {
+    background-color: yellowgreen;
+    opacity: 50%;
+  }
+
+  &__link {
+    display: block; /*сделали link inline-block, чтобы верно заработал перемещенный padding*/
+    padding: 25px; /*сделали в link, а не item, чтобы курсор появлялся сразу при наведении 
+                    курсора, а не когда дойдет до блока link*/
+    color: aqua;
+    text-decoration: none;
+  }
+}

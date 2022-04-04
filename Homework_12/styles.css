@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.horizontal_line {
+  height: 1px;
+  background-color: rgba(219, 219, 219, 1);
+}
+
+.search {
+  position: relative;
+}
+
+.search_icon {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.message_icon {
+  position: relative;
+}
+
+.message_notification::after {
+  content: "5";
+  position: absolute;
+  border-radius: 50%;
+  color: white;
+  background-color: #dc565b;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  font-size: x-small;
+  left: 50%;
+  top: -20%;
+}
+
+.avatar {
+}
+
+.statistics p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  margin: 30px 35px 42px 0px;
+}
+
+.about_me {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+}
+
+.recommended_people {
+  margin-top: 56px;
+  margin-bottom: 55px;
+}
+
+.posts_and_tagged img {
+  margin-right: 10%;
+}
+
+.posts {
+  margin-right: 30%;
+}

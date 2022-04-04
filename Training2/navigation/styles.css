@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.navigation {
+  width: 100%;
+  padding: 10px;
+}
+.navigation__list {
+  display: flex;
+  list-style: none;
+  /*убрали точки перед текстом*/
+  margin: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  /*сделали по 0 преднастройки браузера*/
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  /*сделали по 0 преднастройки браузера*/
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  /*сделали по 0 преднастройки браузера*/
+}
+.navigation__item {
+  /*padding: 25px; сделали в link, а не item, чтобы курсор появлялся сразу при наведении 
+  курсора, а не когда дойдет до блока link*/
+  margin: 10px;
+  border: 2px solid greenyellow;
+  transition: 0.9s;
+  /* 0.3s стандартное время transitiom при навединии курсора (hover)*/
+}
+.navigation__item:hover {
+  background-color: yellowgreen;
+  opacity: 50%;
+}
+.navigation__link {
+  display: block;
+  /*сделали link inline-block, чтобы верно заработал перемещенный padding*/
+  padding: 25px;
+  /*сделали в link, а не item, чтобы курсор появлялся сразу при наведении 
+   курсора, а не когда дойдет до блока link*/
+  color: aqua;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */

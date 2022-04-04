@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="index.css")
+        title BEM
+    body
+        .buttons-big
+            h2 Buttons Big
+            .buttons-big__container-btn
+                include templates/button_download/button-download.pug
+                .buttons-big__btn
+                    +btn-first
+                .buttons-big__btn
+                    +btn-second
+                .buttons-big__btn
+                    +btn-third
+                .buttons-big__btn
+                    +btn-fourth
+                
+                
+            .buttons-big__container-tabs
+        -   
+            let textt  = [
+                "tab1", "tab2", "tab3"
+            ]
+        include templates/button-group/button-group.pug
+        +tabs

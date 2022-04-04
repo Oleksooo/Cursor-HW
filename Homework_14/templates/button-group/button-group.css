@@ -1,0 +1,10 @@
+.tabs {
+  width: 120px;
+  border-radius: 5px;
+  text-align: center;
+}
+.tabs__textt {
+  background: rgb(24, 160, 251);
+  color: white;
+  padding: 15px 20px;
+}/*# sourceMappingURL=button-group.css.map */

@@ -1,0 +1,11 @@
+.tabs {
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+
+    &__textt {
+        background: rgba(24, 160, 251, 1);
+        color: white;
+        padding: 15px 20px;
+    }
+}
